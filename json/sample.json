@@ -3,35 +3,84 @@
    "type": "dir",
    "contents": [
       {
-         "name": "file1",
+         "name": "README",
          "type": "text",
-         "contents": "Hello World!",
-         "description": "FOOO"
+         "contents": "My name is Conor Patrick.  I'm studying computer engineering at Virginia Tech and I'm interning as a software developer for <a href=\"https://www.rockwellcollins.com/\" class=\"exec\" target=\"_blank\">Rockwell Collins</a>. <br><br>This is my website - it's where I post my projects.  It is my fork of Clark Duvall's <a class=\"exec\" target=\"_blank\" href=\"https://github.com/clarkduvall/jsterm<br>\">project</a>.",
+         "description": "Welcome"
       },
       {
-         "name": "pic.jpg",
-         "type": "img",
-         "contents": "/images/penguin.png",
-         "caption": "What a beautiful penguin."
+         "name": "contact",
+         "type": "text",
+         "contents": "Feel free to email me: <a class=\"exec\" href=\"mailto:conorpp@vt.edu\">conorpp@vt.edu</a>",
+         "description": "Get in touch"
       },
       {
-         "name": "dir1",
+         "name":"pics",
          "type": "dir",
          "contents": [
             {
-               "name": "file2",
-               "type": "text",
-               "contents": "foo"
+               "name": "penguin.jpg",
+               "type": "img",
+               "contents": "/images/penguin.png",
+               "caption": "What a beautiful penguin."
             },
             {
-               "name": "foo",
+               "name": "conor.jpg",
+               "type": "img",
+               "contents": "http://i.imgur.com/GC1WXbM.jpg?1",
+               "caption": "That's me"
+            }
+         ]
+      },
+      {
+         "name": "about_conor",
+         "type": "dir",
+         "contents": [
+            {
+               "name": "projects",
                "type": "dir",
                "contents": [
                   {
-                     "name": "file3",
+                     "name": "Http-Rover",
                      "type": "exec",
-                     "contents": "http://google.com",
-                     "description": "blahblah"
+                     "contents": "http://surrogus.com",
+                     "description": "An embedded rover that anyone can queue in to control from a web browser"
+                  },
+                  {
+                     "name": "GitHub",
+                     "type": "exec",
+                     "contents": "http://github.com/conorpp",
+                     "description": "My GitHub account"
+                  },
+                  {
+                     "name": "SentryTurret",
+                     "type": "exec",
+                     "contents": "http://youtu.be/ZpQKaHzHaLQ",
+                     "description": "An autonomous skeletal tracking turret built at MHacks"
+                  },
+                  {
+                     "name": "Karxim",
+                     "type": "exec",
+                     "contents": "http://karxim.com/",
+                     "description": "A simple way to join or create file sharing chatrooms."
+                  },
+                  {
+                     "name": "DineNDash",
+                     "type": "exec",
+                     "contents": "http://www.dinendashnow.com/",
+                     "description": "Order food from any restaurant for be ready for pickup."
+                  },
+                  {
+                     "name": "RepRapLiveInterface",
+                     "type": "exec",
+                     "contents": "https://sites.google.com/a/vt.edu/amp_lab/current-projects/reprap-3d-printer",
+                     "description": "Print 3D objects from a live, online interface."
+                  },
+                  {
+                     "name": "GoogleGlassHUD",
+                     "type": "exec",
+                     "contents": "https://sites.google.com/a/vt.edu/amp_lab/current-projects/reprap-3d-printer",
+                     "description": "Pairing a Google Glass app with external sensors to provide a HUD."
                   }
                ]
             }

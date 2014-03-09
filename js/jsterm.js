@@ -487,15 +487,15 @@
    var term = Object.create(Terminal);
    term.init(CONFIG, '/json/sample.json', COMMANDS, function() {
       term.enqueue('login')
-          .enqueue('clark')
+          .enqueue('conorpp')
           .enqueue('******')
-          .enqueue('cat file1')
+          .enqueue('cat README')
+          .enqueue('cat contact')
           .enqueue('help')
           .enqueue('ls -l')
-          .enqueue('cd dir1/foo')
-          .enqueue('ls')
+          .enqueue('cd about_conor/projects')
+          .enqueue('ls -l')
           .enqueue('cd ../..')
-          .enqueue('ls dir1/foo')
           .enqueue('tree')
           .begin();
    });
