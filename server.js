@@ -7,9 +7,9 @@ app = express();
 app.set('view engine', 'html');
 app.engine('html', require('hbs').__express);
 app.configure(function () {
-    app.use('/static', express.static(__dirname + '/jsterm'));
-    app.use(express.static(__dirname + '/jsterm'));
-    app.set('views', __dirname + '/jsterm');
+    app.use('/static', express.static(__dirname ));
+    app.use(express.static(__dirname ));
+    app.set('views', __dirname );
 });
 
 app.listen(S.http_port);
