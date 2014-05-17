@@ -1,6 +1,6 @@
 /* my big server */
 
-S = require('./settings');
+S = require('./../CORE/lib/settings').app('conorpp.com');
 express = require('express');
 app = express();
 
@@ -12,7 +12,7 @@ app.configure(function () {
     app.set('views', __dirname );
 });
 
-app.listen(S.http_port);
+app.listen(S.port);
 
 app.get('/',function(req, res){
     res.render('index'); 
@@ -23,7 +23,7 @@ app.get('/*',function(req, res){
 });
 
 
-console.log('Server listening on '+S.http_port);
+console.log('Server listening on '+S.port);
 
 
 
